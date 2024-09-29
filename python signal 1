@@ -1,0 +1,11 @@
+import numpy as np
+import matplotlib.pyplot as plt
+t = np.arange(0, 10, 0.01)  
+x_t = np.cos((1/6) * t)     
+plt.figure()
+plt.plot(t, x_t)
+plt.xlabel('t')
+plt.ylabel('x(t)')
+plt.title('x(t) = cos(1/6 * t)')
+plt.grid(True)
+plt.show()
